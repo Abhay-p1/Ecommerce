@@ -10,21 +10,21 @@ import sofa3 from "../Images/sofa3.webp"
 const CataDataFur = [
     {
         imgsrc:sofa,
-        title:"Shirt",
-        price:11.96,
+        title:"Furny Orlando 3 Seater Fabric Sofa Set (Blue-Light Grey)",
+        price:253.30,
         rating:5
     },
     {
         imgsrc:bed,
-        title:"Trouser",
-        price:11.96,
+        title:"Solimo Canes Engineered Wood Queen Bed with Box Storage (Walnut finish)",
+        price:202.64,
         rating:5
 
     },
     {
         imgsrc:almirah,
-        title:"Sports-Lower",
-        price:11.96,
+        title:"Solimo Medusa Engineered Wood 4 Door Wardrobe (Wenge Finish)",
+        price:220.50,
         rating:5
     },
     {

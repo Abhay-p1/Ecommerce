@@ -1,5 +1,6 @@
 {
   "name": "ecommerce",
+  "homepage": "https://github.com/Abhay-p1/Ecommerce",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
