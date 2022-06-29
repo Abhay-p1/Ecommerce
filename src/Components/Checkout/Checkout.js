@@ -22,7 +22,7 @@ function Checkout() {
         <div>
            <div className="row">
              <div className="col-md-8 text-align-center">
-                 <h3 classname="move">Hello, <span className="emailmy">{user?.email}</span></h3>
+                 <h3 classname="move"><span className="heloo">Hello,</span> <span className="emailmy">{user?.email}</span></h3>
                  <h2 className="checkout__title">Your shopping Basket</h2>
              </div>
              <div className="col-md-4">
