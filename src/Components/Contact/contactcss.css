@@ -1,0 +1,42 @@
+.animated{
+  animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
+}
+ 
+@keyframes up-down{
+  0%{
+    transform:translateY(14px);
+  }
+  100%{
+    transform:translateY(-5px);
+  }
+}
+ 
+@webkit-keyframes up-down{
+  0%{
+    transform:translateY(15%);
+  }
+  100%{
+    transform:translateY(-5%);
+  }
+}
+
+.sideimage{
+   box-shadow:5px 5px 15px -5px rgb(255, 255, 255);
+   height:88vh;
+}
+
+ @media (max-width:576px){
+    .sideimage{
+    display:none;
+    }
+}
+
+.btn{
+ font-weight:500;
+  padding:7px 15px;
+  border: 2px solid rgb(9, 143, 214);
+  transition:0.5s;
+  border-radius:50px;
+  letter-spacing:1px;
+  text-decoration:none;
+}

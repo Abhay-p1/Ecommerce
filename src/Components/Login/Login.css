@@ -1,0 +1,102 @@
+.login {
+  background-color: rgb(255, 255, 255);
+  height: 115vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 8px solid rgb(151, 153, 153);
+  box-sizing: border-box;
+}
+.loginpic {
+  width: 450px;
+}
+.blacki {
+  background-color: rgb(31, 30, 30);
+  border-bottom: none;
+}
+.login__logo {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  /* object-fit: contain; */
+  width: 230px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid rgb(88, 180, 196);
+  border-radius: 6px;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.9);
+}
+.login__logo:hover {
+  border: 3px solid rgb(150, 149, 151);
+}
+
+.login__container {
+  background-color: rgb(31, 30, 30);
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(135, 232, 241);
+  padding: 20px;
+  color: white;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  color: black !important;
+}
+.login__container > form > input:hover {
+  border: 2px solid rgb(0, 174, 255);
+}
+
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  background: #437ad3;
+  border-radius: 6px;
+  width: 100%;
+  height: 30px;
+  border: 2px solid;
+  margin-top: 10px;
+  border-color: #4356c2;
+  padding: 4px;
+  cursor: pointer;
+}
+.login__signInButton:hover {
+  background: rgb(79, 201, 79);
+  border: 2px solid green;
+}
+.login__registerButton {
+  border-radius: 6px;
+  width: 100%;
+  height: 30px;
+  border: 2px solid;
+  margin-top: 10px;
+  background: #6de3f8;
+  border-color: rgb(54, 111, 218);
+  cursor: pointer;
+}
+.login__registerButton:hover {
+  background: rgb(240, 225, 12);
+  border: 2px solid rgb(255, 188, 3);
+  color: black;
+}

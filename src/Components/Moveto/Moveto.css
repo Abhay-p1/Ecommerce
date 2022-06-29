@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(34, 33, 33);
+  overflow: hidden;
+  /* border-radius: 2px 50px; */
+  margin-bottom: 5px;
+}
+
+.navbar button {
+  background-color: rgb(83, 82, 82);
+  padding: 14px 15px;
+  float: left;
+  color: white;
+  width: 200px;
+  border-radius: 2px 50px;
+  border-style: double;
+  border-top-color: lawngreen;
+  border-bottom-color: rgb(102, 242, 247);
+  border-left-color: hotpink;
+  border-right-color: khaki;
+  border-width: 2px;
+  font-size: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.navbar button:hover {
+  background-color: black;
+  border-top-color: rgb(102, 242, 247);
+  border-bottom-color: rgb(49, 224, 143);
+  border-left-color: khaki;
+  border-right-color: hotpink;
+}

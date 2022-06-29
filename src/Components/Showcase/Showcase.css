@@ -1,0 +1,140 @@
+.showcase {
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex; /* we will postion header as absoulte so that it does get affected by the flex and stays at the top*/
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  z-index: 2;
+  /* transition: 0.5s; */
+}
+.content {
+  z-index: 10;
+  position: relative;
+  display: none;
+  width: 70%;
+}
+.content.active {
+  display: block;
+}
+.content h1 {
+  font-size: 4em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 75px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.content h1 span {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.content p {
+  font-size: 1.1em;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.content a {
+  display: inline-block;
+  font-size: 1em;
+  background-color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1680ac;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+.content a:hover {
+  transform: scale(0.9);
+}
+.showcase video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.intro-text h2 span {
+  font-family: "Lobster", sans-serif;
+}
+.showcase::before {
+  z-index: 1;
+  content: "";
+  position: absolute;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.slider {
+  z-index: 5;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 10px;
+}
+.slider .nav-btn {
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  transition: 0.3s;
+}
+
+.slider .nav-btn.active {
+  background: #2696e9;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.slider .nav-btn:not(:last-child) {
+  margin-right: 20px;
+}
+.slider .nav-btn:hover {
+  transform: scale(1.2);
+}
+.slides {
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+  -webkit-clip-path: circle(0% at 0 50%);
+  /* display: none; */
+}
+.slides.active {
+  clip-path: circle(150% at 0 50%);
+  -webkit-clip-path: circle(150% at 0 50%);
+  display: block;
+  transition: 1s ease;
+  transition-property: clip-path;
+}
+@media (max-width: 898px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+  .content h1 {
+    font-size: 3em;
+  }
+  .content span {
+    font-size: 2em;
+  }
+}
