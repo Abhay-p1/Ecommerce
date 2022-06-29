@@ -3,67 +3,21 @@
 
 
 ## Home Page
+![Screenshot (47)](https://user-images.githubusercontent.com/74460987/176367962-6f707454-68a2-4a0a-8075-beeaa3b14896.png)
 
 ![Screenshot (46)](https://user-images.githubusercontent.com/74460987/176367864-49044bf8-0554-499c-84cc-a0b961d1e219.png)
 
+## Sign In Page
+![Screenshot (48)](https://user-images.githubusercontent.com/74460987/176368153-58176e38-145c-4040-9515-c0f5a9aeae4d.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Product Sections
+![Screenshot (53)](https://user-images.githubusercontent.com/74460987/176368420-4331f9d6-5e70-410b-bd42-d5d2422add4c.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Check Out Page
+![Screenshot (54)](https://user-images.githubusercontent.com/74460987/176368236-d08d1be8-f06e-4f90-9a78-b10e18cbf1ec.png)
 
-### `npm test`
+## Payment Page
+![Screenshot (51)](https://user-images.githubusercontent.com/74460987/176368326-340bf69e-197a-4974-90fd-960bce7993c3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Orders Page
+![Screenshot (52)](https://user-images.githubusercontent.com/74460987/176368540-180ec401-b13f-4075-a4dd-f58c389a0c70.png)
